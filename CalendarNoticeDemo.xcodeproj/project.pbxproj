@@ -14,6 +14,7 @@
 		4B44B8161D210ADF00FDE3C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B44B8141D210ADF00FDE3C2 /* LaunchScreen.storyboard */; };
 		4B44B8211D210ADF00FDE3C2 /* CalendarNoticeDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B44B8201D210ADF00FDE3C2 /* CalendarNoticeDemoTests.swift */; };
 		4B44B82C1D210ADF00FDE3C2 /* CalendarNoticeDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B44B82B1D210ADF00FDE3C2 /* CalendarNoticeDemoUITests.swift */; };
+		4B44B83A1D210B3D00FDE3C2 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B44B8391D210B3D00FDE3C2 /* EventKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		4B44B8271D210ADF00FDE3C2 /* CalendarNoticeDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalendarNoticeDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B44B82B1D210ADF00FDE3C2 /* CalendarNoticeDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarNoticeDemoUITests.swift; sourceTree = "<group>"; };
 		4B44B82D1D210ADF00FDE3C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B44B8391D210B3D00FDE3C2 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B44B83A1D210B3D00FDE3C2 /* EventKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +80,7 @@
 		4B44B7FF1D210ADF00FDE3C2 = {
 			isa = PBXGroup;
 			children = (
+				4B44B8391D210B3D00FDE3C2 /* EventKit.framework */,
 				4B44B80A1D210ADF00FDE3C2 /* CalendarNoticeDemo */,
 				4B44B81F1D210ADF00FDE3C2 /* CalendarNoticeDemoTests */,
 				4B44B82A1D210ADF00FDE3C2 /* CalendarNoticeDemoUITests */,

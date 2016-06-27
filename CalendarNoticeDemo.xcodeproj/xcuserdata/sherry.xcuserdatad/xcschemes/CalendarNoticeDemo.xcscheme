@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "4B44B8071D210ADF00FDE3C2"
+               BuildableName = "CalendarNoticeDemo.app"
+               BlueprintName = "CalendarNoticeDemo"
+               ReferencedContainer = "container:CalendarNoticeDemo.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "4B44B81B1D210ADF00FDE3C2"
+               BuildableName = "CalendarNoticeDemoTests.xctest"
+               BlueprintName = "CalendarNoticeDemoTests"
+               ReferencedContainer = "container:CalendarNoticeDemo.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "4B44B8261D210ADF00FDE3C2"
+               BuildableName = "CalendarNoticeDemoUITests.xctest"
+               BlueprintName = "CalendarNoticeDemoUITests"
+               ReferencedContainer = "container:CalendarNoticeDemo.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "4B44B8071D210ADF00FDE3C2"
+            BuildableName = "CalendarNoticeDemo.app"
+            BlueprintName = "CalendarNoticeDemo"
+            ReferencedContainer = "container:CalendarNoticeDemo.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "4B44B8071D210ADF00FDE3C2"
+            BuildableName = "CalendarNoticeDemo.app"
+            BlueprintName = "CalendarNoticeDemo"
+            ReferencedContainer = "container:CalendarNoticeDemo.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "4B44B8071D210ADF00FDE3C2"
+            BuildableName = "CalendarNoticeDemo.app"
+            BlueprintName = "CalendarNoticeDemo"
+            ReferencedContainer = "container:CalendarNoticeDemo.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
